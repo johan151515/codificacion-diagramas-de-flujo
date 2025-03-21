@@ -8,24 +8,30 @@
 let ageOne=18;
 let ageTwo=12;
 let ageThree=24;
-let average=(ageOne+ageTwo+ageThree)/3
 
 if(ageOne>=18){
-	console.log("is adult");
+	console.log("age one:","is adult");
 }
 else{
-	console.log("is child");
+	console.log("age one:","is child");
 }
 if(ageTwo>=18){
-	console.log("is adult");
+	console.log("age two:","is adult");
 }
 else{
-	console.log("is child");
+	console.log("age two:","is child");
 }
 if(ageThree>=18){
-	console.log("is adult");
+	console.log("age three:","is adult");
 }
 else{
-	console.log("is child");
+	console.log("age three:","is child");
+}
+let average=(ageOne+ageTwo+ageThree)/3
+if (average=>18){
+	console.log("the group is coming of age")
+}
+else{
+console.log("the group is not of age")
 }
 
